@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Amina Gudzé</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>#CodePenChallenge - <dt> and <dd></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css'>
+
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @import url("https://fonts.googleapis.com/css?family=Varela+Round");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  
+}
+
+.container {
+  margin: auto;
+  padding: 30px 40px;
+  width: auto;
+  height: auto;
+  background-image: url("https://nordiclifescience.org/wp-content/public_html/2016/01/ThinkstockPhotos-501343354-e1451984909561.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+}
+.container h1 {
+  text-align: center;
+  color: #0039A6;
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 50px;
+  
+}
+.container h2 {
+  text-align: center;
+  color: rgba(34, 87, 185, 0.3);
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+dl card {
+  color: #fff;
+  font-size: 2em;
+  position: relative;
+  text-align: center;
+  border-radius: 3px;
+  min-height: 250px;
+  transition: all 0.5s ease;
+  transform-style: preserve-3d;
+}
+dl card dt, dl card dd {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  border-radius: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+}
+dl card dt {
+  background: #0039A6;
+  background: linear-gradient(5deg, #0039A6, #FFFFFF);
+  z-index: 2;
+  transform: rotateX(0deg);
+}
+dl card dd {
+  background: #D52B1E;
+  background: linear-gradient(5deg, #D52B1E, #FFFFFF);
+  transform: rotateX(180deg);
+  margin: 0;
+}
+dl card dd:before {
+  content: attr(part) ".";
+  font-style: italic;
+  font-size: 0.8em;
+  opacity: 0.7;
+}
+dl [class*="-slide"] {
+  transition: all 0.5s ease;
+  transform: scale(1);
+  perspective: 1500px;
+  margin: 40px 25px;
+  outline: none;
+  opacity: 0.8;
+}
+dl [class*="-current"] {
+  transform: scale(1.1);
+  cursor: pointer;
+  opacity: 1;
+}
+dl [class*="-current"].flip card {
+  transform: rotateX(180deg);
+}
+
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+  
+  <h1>Le Russe à votre rythme 1</h1>
+  <h2>Le nom au singulier & La question et la réponse affirmative </h2>
+  
+  <dl>
+    <card>
+      <dt>la maison</dt>
+      <dd part="n.m">дом</dd>
+    </card>
+    <card>
+      <dt>l'étudiant</dt>
+      <dd part="n.m">студент</dd>
+    </card>
+    <card>
+      <dt>la fenêtre</dt>
+      <dd part="n.n">окно́</dd>
+    </card>
+    <card>
+      <dt>la porte</dt>
+      <dd part="n.f">дверь</dd>
+    </card>
+    <card>
+      <dt>le balcon</dt>
+      <dd part="n.m">балко́н</dd>
+    </card>
+    <card>
+      <dt>l'armoire</dt>
+      <dd part="n.m">шкаф</dd>
+    </card>
+  </dl>
+  
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
